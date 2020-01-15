@@ -70,7 +70,8 @@ head nav {
 .container{
 	width:100%;
 	display:inline-block;
-	margin-left:16%;
+	margin-left:12%;
+    word-spacing: 70px;
 }
 h1{
 	font-size: 85px;
@@ -85,4 +86,21 @@ h1{
 	width: 20%;
     margin: 1.5% 10% 20%;
 	display: inline-block;
+}
+#about .text{
+	padding:4%;
+	text-align:right;
+	width:80%;
+	margin:0 0 0 0;
+	display: inline-block;
+  }
+  #features .ftext{
+	padding:4%;
+	text-align:left;
+	width:80%;
+	margin:0 0 0 0;
+	display: inline-block;
+  }
+title{
+	text-align: right;
 }
