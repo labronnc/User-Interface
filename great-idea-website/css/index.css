@@ -119,6 +119,9 @@ h1{
 	width: 100%;
   }
   #features .ftext{
+	box-sizing: border-box;
+	width: 150%;
+	border: 15px;
 	padding:4%;
 	text-align:left;
 	margin:0 0 0 0;
@@ -126,37 +129,34 @@ h1{
 	width: 100%;
   }
   .secondblock {
-	box-sizing: border-box;
-	width: 100%;
-	border: 15px;
-	padding: 20px;
-	margin: 25px;
-	
+  display: grid;
+  width: 100%;
+  grid-template-columns: 10px 10px 10px;
+  align-items: start;
+  justify-content: space-between;
+  background-color: brown;
 }
 #services, #product, #vision{
-	width: 100%;
-	margin: 0;
-	display: inline-block; 
-	padding: .7%;
+  display: grid;
+  align-items: start;
+  justify-content: space-between;
+  padding: 100%;
 }
-#services .stext{
-	padding:4%;
+/#services .stext{
+	
 	text-align:left;
-	margin:0 0 0 0;
 	display: inline-block;
 	width: 100%;
   }
   #product .ptext{
-	padding:4%;
+
 	text-align:left;
-	margin:0 0 0 0;
 	display: inline-block;
 	width: 100%;
   }
   #vision .vtext{
-	padding:4%;
+
 	text-align:left;
-	margin:0 0 0 0;
 	display: inline-block;
 	width: 100%;
   }
@@ -168,5 +168,4 @@ button .thebutton{
 	margin-left: -121px;
 	margin-top: 1px;
 	width: 10%;
-	
 }
