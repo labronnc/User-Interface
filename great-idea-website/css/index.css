@@ -65,129 +65,78 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 /*Use width, padding, margin, display for this project. eliminate "word-spacing"*/
-*{
-	box-sizing:border-box;
-	padding:0;
-	margin:0;
-	max-width:100%;
-	border: 3px solid grey;
-  }
-nav {
-	width: 500px;
-	display: inline-block;
-	border: 10px solid red;
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
 }
-.container{
-	width:80%;
-	border: 2px solid blue;
-	padding-top: 5%;
-	display:inline-block;
-	margin: 0 auto;
-	position: relative;
-	left: 200px;
+.main-header .navbar {
+    padding: 10px;
+    /* border: blue solid 1px; */
 }
-.logo{
-	position: relative;
-	display: inline-block;
-	width: 20%;
-	bottom: -15px;
+.main-header .navbar ul {
+    display: inline-block;
+    /* border: green solid 1px; */
 }
-
-body {
-	width: 100%;
-	margin: 0 5%;
+.main-header .navbar ul li {
+    display: inline;
+    padding: 0 20px;
 }
-h1{
-	font-size: 85px;
-	margin: 0 20%;
-	text-align: center;
-	position: relative;
-	transform: translateX(-1000%);
-	transform: translateY(100%);  
+.main-header .navbar ul li a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 20px;
 }
-.tagline {
-	width: 50%;
-	display: inline-block;
-	position: relative;
-	transform: translateX(-1000%);
-	transform: translateY(2%);
-	padding-top: 1%;
+.logo {
+    margin-left: 35%;
 }
-.imagelogo{
-	width: 50%;
-    margin: 1.5% 10% 20%;
-	display: inline-block;
-	position: relative;
-	left: 500px;
+.main-header .caption {
+    display: inline;
+    text-align: center;
 }
-	
-.featureblock {
-	box-sizing: border-box;
-	width: 150%;
-	border: 15px;
-
+.main-header .caption h1 {
+    font-size: 75px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10% 0 2% 10%;
 }
-#about{
-	width: 30%;
-	margin: 22px;
-	display: inline-block;
-	padding-bottom: 0%;
+.main-header .caption a {
+    padding: 0 20px 0 20px;
+    border:#333 1px solid;
+    color: #333;
+    text-decoration: none;
+    margin: 0 0 0 16%;
+    font-size: 20px;
 }
-#features{
-	width: 30%;
-	margin: 22px;
-	margin-bottom: 16px;
-	margin-top: 16px;
-	display: inline-block;
-	padding-bottom: 0%;
-	padding-top: 2%;
+.main-header .header-img {
+    margin: -25% 0 8% 70%;
 }
-
-  .secondblock {
-	box-sizing: border-box;
-  display: grid;
-  width: 50%;
-  grid-template-columns: .1px 1px 1px;
-  align-items: start;
-  justify-content: space-between;
+.content-section .content-box-top {
+    display: inline-block;
+    max-width: 500px;
+    margin: 2% 0 2% 8%;
+    padding: 20px;
 }
-#services, #product, #vision{
-  display: grid;
-  align-items: start;
-  justify-content: space-between;
-  padding: 100%;
-  position: relative;
-  right: -300px;
-  margin: 0 auto;
-  line-height: .9;
+.content-section .content-box h1 {
+    font-size: 30px;
 }
-#services .stext{
-	
-	text-align:left;
-	display: inline-block;
-	width: 100%;
-  }
-  #product .ptext{
-
-	text-align:left;
-	display: inline-block;
-	width: 100%;
-  }
-  #vision .vtext{
-
-	text-align:left;
-	display: inline-block;
-	width: 100%;
-  }
-title{
-	text-align: right;
+.content-section .middle-img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
 }
-button .thebutton{
-	display: inline-block;
-	margin-left: -121px;
-	margin-top: 1px;
-	width: 10%;
-	position: relative;
-	transform: translateX(-1000%);
-	transform: translateY(2%);
+.content-section .content-box-bottom {
+    display: inline-block;
+    max-width: 300px;
+    margin: 2% 0 2% 8%;
+    padding: 20px;
+}
+footer h1 {
+    margin-top: 2%;
+}
+footer p {
+    margin-bottom: 2%;
+}
+footer .copyright {
+    text-align: center;
 }
